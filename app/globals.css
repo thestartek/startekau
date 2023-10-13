@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6;
+}
+
+/* Thin scrollbar track */
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+/* Thin scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #3b82f6; 
+  border-radius: 10px; 
+  transition: all ease-in-out 0.2s;
+}
+
+/* Thin scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #065de9; 
+}
+
+Link {
+  transition: all ease-in-out 0.2s;
+}
+Link:hover {
+  color: rgb(213, 198, 198);
+  transform: scale(1.1);
+}
