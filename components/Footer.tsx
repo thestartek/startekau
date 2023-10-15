@@ -26,17 +26,17 @@ export default function Footer() {
               <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaFacebook size={24} />
               </Link>
-              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
+              <Link href="/" target="_blank" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaTwitter size={24} />
               </Link>
-              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
+              <Link href="/" target="_blank" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaInstagram size={24} />
               </Link>
-              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
+              <Link href="/" target="_blank" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaLinkedin size={24} />
               </Link>
             </div>
-              <Link href="/policy" className="text-gray-400 text-xl py-4 md:text-left text-center footer">Privacy Policy</Link>
+              <Link href="/policy" target="_blank" className="text-gray-400 text-xl py-4 md:text-left text-center footer">Privacy Policy</Link>
         </div>
       </div>
     </footer>
