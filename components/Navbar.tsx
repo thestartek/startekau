@@ -37,7 +37,7 @@ export default function Navbar() {
       </div>
       {/* Floating Box for Menu Items */}
       {menuOpen && (
-        <div className="md:hidden flex flex-col gap-5 justify-between absolute text-center text-white top-50 mt-5 mr-2 right-2 bg-blue-500 w-36 px-2 py-5 rounded-lg shadow-lg">
+        <div className="md:hidden flex flex-col gap-5 justify-between absolute text-center text-white top-50 mt-5 mr-2 right-2 bg-blue-500 w-36 px-2 py-5 rounded-2xl shadow-2xl">
           <Link href="/blog" className="hover:scale-110 hover:text-white-100">
             Blog
           </Link>

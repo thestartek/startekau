@@ -3,44 +3,40 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+    <footer className="shadow-black shadow-2xl md:p-5 p-3 flex items-center justify-center">
+      <div className="container max-w-[1280px] flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left mb-4 md:mb-3">
-          <p className="text-3xl font-semibold">Your Footer Content</p>
-          <p className="mt-4 text-gray-500">&copy; {new Date().getFullYear()} Startek</p>
+          <p className="text-3xl font-semibold text-center">Startek AU</p>
+          <p className="mt-4 text-gray-500 text-center">&copy; {new Date().getFullYear()} Startek</p>
         </div>
-        <div className="flex flex-col md:flex-row md:items-center md:space-x-4">
-          <a href="/about" className="hover:underline text-gray-300">About</a>
-          <a href="/services" className="hover:underline text-gray-300">Services</a>
-          <a href="/contact" className="hover:underline text-gray-300">Contact</a>
-          <div>
-            <p className="text-gray-300 mb-2">Subscribe to Our Newsletter:</p>
+        <div className="flex flex-col items-center justify-center">
+            <p className="text-gray-400 mb-2">Subscribe to Our Newsletter:</p>
             <input
               type="email"
               placeholder="Email Address"
               className="p-2 border-2 mb-2 rounded-md"
             />
-            <button className="bg-blue-500 text-white py-2 px-4 rounded-md ml-2 hover:bg-blue-600">
+            <button className="bg-blue-500 text-white py-2 px-4 rounded-md ml-2 hover:bg-blue-600 transition-all ease-in-out duration-500">
               Subscribe
             </button>
-          </div>
-          <div className="mt-4 md:mt-0">
-            <p className="text-gray-300 mb-2">Follow Us:</p>
-            <div className="flex space-x-4">
-              <Link href="/" className="text-gray-300 hover:text-white">
+        </div>
+        <div className="mt-4 md:mt-0">
+            <p className="text-gray-400 mb-2 md:text-left text-center">Follow Us:</p>
+            <div className="flex space-x-4 pb-4">
+              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaFacebook size={24} />
               </Link>
-              <Link href="/" className="text-gray-300 hover:text-white">
+              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaTwitter size={24} />
               </Link>
-              <Link href="/" className="text-gray-300 hover:text-white">
+              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaInstagram size={24} />
               </Link>
-              <Link href="/" className="text-gray-300 hover:text-white">
+              <Link href="/" className="text-gray-500 hover:text-gray-400 transition-all ease-in-out duration-400">
                 <FaLinkedin size={24} />
               </Link>
             </div>
-          </div>
+              <Link href="/policy" className="text-gray-400 text-xl py-4 md:text-left text-center footer">Privacy Policy</Link>
         </div>
       </div>
     </footer>
