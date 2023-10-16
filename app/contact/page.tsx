@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram, FaMailBulk } from 'react-icons/fa';
 import Link from 'next/link'
-
+// This page is to be implemented in OR section
 export default function Contact() {
   return (
     <div className="min-h-[80vh] mt-5">

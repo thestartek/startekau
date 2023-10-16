@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react';
-import logo from '/public/logo.png'
-import Link from 'next/link';
-import Image from 'next/image';
-import hamburger from '/public/hamburger.svg'
+import React, { useState } from "react";
+import logo from "/public/logo.png";
+import Link from "next/link";
+import Image from "next/image";
+import hamburger from "/public/hamburger.svg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,19 +13,16 @@ export default function Navbar() {
     <nav className="bg-blue-500 py-1 px-4">
       <div className="container mx-auto flex justify-between items-center py-1 max-w-[1080px]">
         <Link href="/">
-          <Image src={logo} alt="Startek" className="w-12 h-12 inline" /> <span className="font-bold px-2 text-center text-white">Startek AU</span>
+          <Image src={logo} alt="Startek" className="w-12 h-12 inline" />{" "}
+          <span className="font-bold px-2 text-center text-white">
+            Startek AU
+          </span>
         </Link>
 
         <div className="hidden md:flex justify-around space-x-4 text-white w-[40%]">
-          <Link href="/blog">
-            Blog
-          </Link>
-          <Link href="/tools">
-            Tools
-          </Link>
-          <Link href="/contact">
-            Contact
-          </Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/tools">Tools</Link>
+          <Link href="/contact">Contact</Link>
         </div>
 
         {/* Hamburger Menu */}
@@ -44,7 +41,10 @@ export default function Navbar() {
           <Link href="/tools" className="hover:scale-110 hover:text-white-100">
             Tools
           </Link>
-          <Link href="/contact" className="hover:scale-110 hover:text-white-100">
+          <Link
+            href="/contact"
+            className="hover:scale-110 hover:text-white-100"
+          >
             Contact
           </Link>
         </div>
