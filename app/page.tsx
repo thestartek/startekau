@@ -9,7 +9,7 @@ export default function Home() {
               Welcome to Startek AU
             </h1>
             <p className="text-xl mb-8">
-              Only thing you'll ever need to get to Australia.
+              Only thing you&apos;ll ever need to get to Australia.
             </p>
             <a
               href="/contact"
