@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
-import logo from "/public/logo.png";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import hamburger from "/public/hamburger.svg";
@@ -13,7 +12,7 @@ export default function Navbar() {
     <nav className="bg-blue-500 py-1 px-4">
       <div className="container mx-auto flex justify-between items-center py-1 max-w-[1080px]">
         <Link href="/">
-          <Image src={logo} alt="Startek" className="w-12 h-12 inline" />{" "}
+          <img src="logo.png" alt="Startek" className="w-12 h-12 inline" />{" "}
           <span className="font-bold px-2 text-center text-white">
             Startek AU
           </span>
