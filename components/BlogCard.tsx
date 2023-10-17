@@ -6,7 +6,7 @@ const BlogPostCard = ({ title, date, image, slug, preview }: BlogCardProps) => {
   return (
     <main>
       <div className="bg-white p-4 rounded-lg shadow-md mx-4">
-        <div className="cursor-pointer">
+        <Link href={`/blog/${slug}`}>
           <img
             src={image}
             alt={title}
@@ -15,7 +15,7 @@ const BlogPostCard = ({ title, date, image, slug, preview }: BlogCardProps) => {
           <h2 className="text-xl font-semibold mb-2">{title}</h2>
           <p className="text-gray-500">{date}</p>
           <p className="text-gray-500">{preview}</p>
-        </div>
+        </Link>
       </div>
       <div className="bg-white p-4 rounded-lg shadow-md mx-4 mt-2">
         <div className="flex items-center justify-around">

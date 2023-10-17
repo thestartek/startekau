@@ -21,7 +21,7 @@ export default function Home() {
         </section>
 
         {/* Expectation section */}
-        <section className="container bg-white mx-auto py-12 px-10 lg:min-h-[40vh]">
+        <section className="container bg-white mx-auto py-12 px-10 lg:min-h-[40vh] max-w-[1280px]">
           <h2 className="text-2xl font-semibold mb-4">
             What To Expect From Us?
           </h2>
@@ -35,7 +35,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 2 */}
+            {/* Expectation 2 */}
             <div className="transition-all ease-in-out p-4 bg-white rounded-lg shadow hover:shadow-xl">
               <h2 className="text-xl font-semibold mb-2">Expectation 2</h2>
               <p className="text-gray-700">
@@ -44,7 +44,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 3 */}
+            {/* Expectation 3 */}
             <div className="transition-all ease-in-out p-4 bg-white rounded-lg shadow hover:shadow-xl">
               <h2 className="text-xl font-semibold mb-2">Expectation 3</h2>
               <p className="text-gray-700">

@@ -4,4 +4,5 @@ export type BlogCardProps = {
   image: string;
   slug: string;
   preview: string;
+  publishedby: string;
 }
