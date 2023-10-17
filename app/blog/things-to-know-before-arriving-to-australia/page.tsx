@@ -8,7 +8,7 @@ const page = () => {
       <div className="m-4 max-w-[768px]">
         <BlogPage
           title="Things to know before arriving to Australia"
-          image="/blog1.webp"
+          image="blog1.webp"
           slug=""
           preview=""
           date="October 17, 2023"

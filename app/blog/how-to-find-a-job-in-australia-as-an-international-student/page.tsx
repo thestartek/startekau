@@ -8,7 +8,7 @@ const page = () => {
       <div className="m-4 max-w-[768px]">
         <BlogPage
           title="How to find a job in Australia as an International student"
-          image="/blog4.jpeg"
+          image="blog4.jpeg"
           slug=""
           preview=""
           date="October 17, 2023"

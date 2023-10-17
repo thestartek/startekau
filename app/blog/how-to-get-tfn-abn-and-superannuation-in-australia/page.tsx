@@ -8,7 +8,7 @@ const page = () => {
       <div className="m-4 max-w-[768px]">
         <BlogPage
           title="How to get TFN, ABN and Superannuation in Australia 2023"
-          image="/blog3.jpeg"
+          image="blog3.jpeg"
           slug=""
           preview=""
           date="October 17, 2023"
