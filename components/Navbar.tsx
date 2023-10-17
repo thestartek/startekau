@@ -27,7 +27,7 @@ export default function Navbar() {
         {/* Hamburger Menu */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>
-            <Image src={hamburger} alt="menu" />
+            <Image src={`/${hamburger}`} alt="menu" />
           </button>
         </div>
       </div>
