@@ -1,5 +1,4 @@
 import { BlogCardProps } from "@/types";
-import Image from "next/image";
 
 const BlogPage = ({ image, title, date, publishedby }: BlogCardProps) => {
   return (
@@ -10,7 +9,7 @@ const BlogPage = ({ image, title, date, publishedby }: BlogCardProps) => {
           Published on {date} by {publishedby}
         </p>
         <img
-          src={image}
+          src={`/${image}`}
           alt="Blog 1"
           className="mt-4 mb-6 w-full h-96 object-cover rounded-md"
         />
