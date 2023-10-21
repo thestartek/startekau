@@ -11,7 +11,7 @@ export default function Tools() {
     <main className="min-h-[80vh] m-auto flex items-center justify-center">
       <div className="max-w-[1080px] m-5 grid grid-cols-3">
         <Link
-          href=""
+          href="/tools/prpointscalculator"
           className="md:w-[180px] w-[100px] flex flex-col items-center justify-center gap-2 shadow-black shadow rounded-lg py-2 active:scale-95 transition-all ease-in-out m-2"
         >
           <FaCalculator size={40} />
