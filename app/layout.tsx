@@ -1,20 +1,21 @@
-import './globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import PointsTable from "@/components/tools/PointsTable";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Startek',
-  description: 'Official Website for Startek',
-}
+  title: "Startek",
+  description: "Official Website for Startek",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -24,5 +25,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }

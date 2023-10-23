@@ -1,7 +1,12 @@
 import React from "react";
+import PointsTable from "@/components/tools/PointsTable";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <PointsTable />
+    </div>
+  );
 };
 
 export default page;
