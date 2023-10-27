@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { BlogCardProps } from "@/types";
 import { FaThumbsUp, FaComment, FaShare } from "react-icons/fa";
+import Image from "next/image";
 
 const BlogPostCard = ({ title, date, image, slug, preview }: BlogCardProps) => {
   return (
     <main>
       <div className="bg-white p-4 rounded-lg shadow-md mx-4">
         <Link href={`/blog/${slug}`}>
-          <img
+          <Image
             src={`${image}`}
             alt={title}
             className="transition-all ease-in-out mb-4 w-full object-cover rounded-md hover:scale-105"
