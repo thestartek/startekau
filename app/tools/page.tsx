@@ -1,11 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { FaCalculator, FaList, FaGlobe } from "react-icons/fa";
 
-import AustraliaIcon from "/public/australiaIcon.svg";
-import ExpenseEstimator from "/public/expenseEstimator.svg";
-import PRPoints from "/public/PrPoints_logo.svg";
 export default function Tools() {
   return (
     <main className="min-h-[80vh] m-auto flex items-center justify-center">

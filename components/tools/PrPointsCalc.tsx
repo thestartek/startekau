@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-const PrPointsCalc = () => {
+const SubClasses = () => {
   return (
-    <div className="container mx-auto p-4 flex flex-col align-center justify-center h-[80vh] max-w-[1080px]">
-      <h1 className="text-2xl text-center font-bold mb-8">
+    <div className="container mx-auto p-4 flex flex-col align-center justify-center max-w-[1080px]">
+      <h1 className="text-2xl text-center font-bold mb-4">
         Calculate your points for Permanent Residency application
       </h1>
       <div className="mb-4 md:grid md:grid-cols-2 flex flex-col gap-4 items-center justify-center">
@@ -44,4 +44,4 @@ const PrPointsCalc = () => {
   );
 };
 
-export default PrPointsCalc;
+export default SubClasses;
